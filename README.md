@@ -1,1 +1,190 @@
-# ekasenjaputra
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunset BIO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Press+Start+2P&family=Audiowide&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Audiowide', cursive;
+      background: linear-gradient(180deg, #1b0032 0%, #09001a 100%);
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(90deg, #ff00cc, #3333ff);
+      animation: hueShift 20s infinite linear;
+    }
+    .hero h1 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 3em;
+      text-shadow: 0 0 20px #ffffff;
+      margin: 0;
+    }
+    .hero h2 {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 1.2em;
+      color: white;
+      text-shadow: 0 0 5px #000;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      animation: fadeInUp 1s ease-out both;
+    }
+    .card {
+      background: linear-gradient(135deg, #221133, #330066);
+      border: 2px solid #ff00cc;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 0 20px #ff00cc80;
+      transition: transform 0.1s ease;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #221133, #330066);
+      border: 2px solid #ff00cc;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 0 20px #ff00cc80;
+      transition: transform 0.4s ease;
+    }.card {
+      background: linear-gradient(135deg, #221133, #330066);
+      border: 2px solid #ff00cc;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 0 20px #ff00cc80;
+      transition: transform 0.4s ease;
+    }.card {
+      background: linear-gradient(135deg, #221133, #330066);
+      border: 2px solid #ff00cc;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 0 20px #ff00cc80;
+      transition: transform 0.4s ease;
+    }.card {
+      background: linear-gradient(135deg, #221133, #330066);
+      border: 2px solid #ff00cc;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 0 20px #ff00cc80;
+      transition: transform 0.4s ease;
+    }.card {
+      background: linear-gradient(135deg, #221133, #330066);
+      border: 2px solid #ff00cc;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 0 20px #ff00cc80;
+      transition: transform 0.4s ease;
+    }.card {
+      background: linear-gradient(135deg, #221133, #330066);
+      border: 2px solid #ff00cc;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 0 20px #ff00cc80;
+      transition: transform 0.4s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+    }
+    h3 {
+      color: #00ffff;
+      font-size: 1.2em;
+      border-bottom: 1px dashed #ff00cc;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      font-family: 'Orbitron', sans-serif;
+    }
+    ul, p {
+      line-height: 1.8em;
+      font-family: 'Share Tech Mono', monospace;
+    }
+    .quote {
+      text-align: center;
+      font-style: italic;
+      margin: 60px auto;
+      font-size: 1em;
+      padding: 20px;
+      border: 2px dashed #00ffff;
+      max-width: 700px;
+      background: #0e0022;
+      box-shadow: 0 0 15px #00ffff80;
+      font-family: 'Share Tech Mono', monospace;
+    }
+    @keyframes hueShift {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(360deg); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>CODENAME-SUNSET</h1>
+    <h2>"Multiverse Guardian of Creativity and Code"</h2>
+  </section>
+
+  <div class="container">
+    <div class="card">
+      <h3>🚀 Identitas</h3>
+      <p><strong>Nama Asli:</strong> Eka Senja Putra</p>
+      <p><strong>Tempat/Tanggal Lahir:</strong> Langsa, 09 April 2004</p>
+      <p><strong>Markas:</strong> Lamlo, Sakti</p>
+      <p><strong>Email:</strong> Ekasenja0904@gmail.com</p>
+    </div>
+
+    <div class="card">
+      <h3>🎓 Pendidikan</h3>
+      <ul>
+        <li>SDN Kp.Jeumpa</li>
+        <li>MTsN 6 Pidie</li>
+        <li>SMKN 2 Sigli</li>
+        <li>Universitas Jabal Ghafur</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>⚡ Spesialisasi</h3>
+      <ul>
+        <li>Multiverse UI/UX Engineering</li>
+        <li>Kecerdasan Buatan & Nano Interface</li>
+        <li>Visual Coding Reality</li>
+        <li>Armor Aesthetic Architect</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>💼 Profesi</h3>
+      <p>Lead Visionary Engineer di studio dimensi paralel. Mengembangkan teknologi dan desain untuk masa depan, sistem interaksi manusia-AI, dan estetika futuristik.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎮 Hobi</h3>
+      <ul>
+        <li>Mendengar musik</li>
+        <li>Membuat Animasi AI</li>
+        <li>Main game Online</li>
+        <li>Menjelejahi ruang dan waktu</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="quote">
+    "Tetaplah hidup walau tidak berguna." – SENJA
+  </div>
+</body>
+</html>
